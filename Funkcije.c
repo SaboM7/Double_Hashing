@@ -10,17 +10,6 @@ void popuna_tabele (int tabela[],int vel_tabele, int vrednost){
     }
 }
 
-void obavestenje_o_proveri (int puna_tabela){
-        if (puna_tabela == 1){
-            printf("\nTabela je puna!\n");
-            return;
-            }
-        else {
-            printf("\nHes funkcija je usla u beskonacnu petlju!\nMolim Vas promenite hes funkcije.\n");
-            return;
-            }
-}
-
 int provera_tabele (int tabela[],int vel_tabele){ //provera da li je tabela puna
     for(int i=0;i<vel_tabele; i++){
         if (tabela[i]==-1){
